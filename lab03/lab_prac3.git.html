@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign In</title>
+  </head>
+  <body>
+    <h1>Sign In</h1>
+    <form action="result.html" method="get">
+      <div class="">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Enter Your Name" required><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" value="" required><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" value=""><br>
+
+        <label for="age">Age</label>
+        <input type="number" name="age" value="" min="1" max="100"><br>
+
+        <label for="birthday">Birthday</label>
+        <input type="date" name="date" max="2018-09-18"><br>
+      </div>
+<br>
+
+      <div class="">
+        <label for="Gender">Gender</label>
+        <select name="Gender">
+          <option value="Male">Male</option><br>
+          <option value="Female">Female</option><br>
+          <option value="None">I don't want to select my Gender.</option>
+          </select>
+      </div><br>
+
+
+      <div>
+        Profile Image<br>
+        <input type="file" name="profileImg" accept="image/*">
+        <input type="submit" value="upload">
+      </div><br>
+
+
+      <div class="">
+        <p>Food Preferences</p>
+        <input type="radio" name="Food Preferences" value="whole food">Whole Food<br>
+        <input type="radio" name="Food Preferences" value="lacto-ovo">Lacto-ovo<br>
+        <input type="radio" name="Food Preferences" value="lacto vegetarian">Lacto Vegetarian<br>
+        <input type="radio" name="Food Preferences" value="ovo vegetarian">Ovo Vegetarian<br>
+        <input type="radio" name="Food Preferences" value="flexitarian">Flexitarian<br>
+        <input type="radio" name="Food Preferences" value="pollotarian">Pollotarian<br>
+        <input type="radio" name="Food Preferences" value="pescatarian">Pescatarian<br>
+        <input type="radio" name="Food Preferences" value="vegan">Vegan<br>
+        <input type="radio" name="Food Preferences" value="muslim meal">Muslim Meal<br>
+      </div><br><br>
+
+
+      <div class="">
+        Allergic Information<br>
+        <input type="checkbox" name="Allergic Info" value="Peanut">Peanut
+        <img border="0" src="NoPeanut.jpg" alt="NoPeanut.jpg" width="80" height="80" align="absmiddle"><br>
+        <input type="checkbox" name="Allergic Info" value="Seafoods">Seafoods
+        <img border="0" src="NoSeafood.jpg" alt="NoSeafood.jpg" width="120" height="120" align="absmiddle"><br>
+      </div><br><br>
+
+      <div class="">
+        <textarea name="More Info" rows="8" cols="80">Please note if you want to something to us.</textarea><br>
+      </div><br>
+
+
+      <div class="">
+        <button type="reset" >Reset</button>
+        <button type="submit" >Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
