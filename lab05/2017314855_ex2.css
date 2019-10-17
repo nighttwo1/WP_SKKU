@@ -1,0 +1,123 @@
+#ital{
+  font-style: italic;
+}
+.body{
+  padding-left: 70px;
+  padding-right:70px;
+  margin-top: 30px;
+}
+.container{
+  display: flex;
+}
+.info{
+  width: 60%;
+  float:left;
+}
+.view{
+  width:40%
+}
+.view p{
+  border:2px solid black;
+  text-align:left;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  display: flex;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: rgb(10, 100, 200);
+}
+a:lick{
+  color: blue;
+}
+a:visited{
+  color:purple;
+}
+a:hover{
+  color:black;
+}
+h5{
+  font-size: 18px;
+  color:white;
+}
+.f1{
+  margin-left: 70px;
+  width: 30%;
+}
+.f1 img{
+  display: block;
+  margin-bottom: 10px;
+}
+.f1 ul{
+  display: flex;
+}
+.f1 ul li{
+  margin-right: 30px;
+}
+.f2{
+  width: 30%;
+  margin-left: 30px;
+}
+.f3{
+  width: 30%;
+}
+li{
+  margin-bottom: 15px;
+}
+/*
+footer{
+  background-color: black;
+  display:flex;
+  float: none;
+}
+ul{
+  list-style-type:none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.f1{
+  float: left;
+  background-color: black;
+}
+.f1 *{
+  background-color: black;
+}
+.f2{
+  float: left;
+  background-color: black;
+}
+.f2 *{
+  background-color: black;
+}
+.f3{
+  float: left;
+  background-color: black;
+}
+.f3 *{
+  background-color: black;
+}
+.f1_1 ul{
+  display: inline-flex;
+  color: white;
+}
+#A{
+  margin-left: 20px;
+}
+img{
+  margin-left: 40px;
+}
+.h5 {
+  color: blue;
+}
+*/

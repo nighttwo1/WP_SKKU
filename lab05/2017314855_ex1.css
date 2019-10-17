@@ -1,0 +1,86 @@
+*{
+  background-color: #d3d3d3;
+}
+h1{
+  border:2px solid black;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.body{
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.body *{
+  width: 100%;
+  background-color: white;
+}
+.main_col{
+  margin: 0px 0px 0px 30px;
+  width: 40%;
+  float: left;
+}
+.side1{
+  margin-left: 80px;
+  float: left;
+  width: 20%;
+}
+.side2{
+  margin-left: 80px;
+  margin-right: 30px;
+  width: 20%;
+  float: left;
+}
+
+.HTML{
+  border:2px solid blue;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background-color: #c0dbe2;
+}
+.HTML *{
+  background-color: #c0dbe2;
+}
+
+.CSS{
+  border:2px solid green;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background-color: #cdf1c3;
+}
+.CSS *{
+  background-color: #cdf1c3;
+}
+
+.JSP{
+  border:2px solid red;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background-color: #ccb9da;
+}
+.JSP *{
+  background-color: #ccb9da;
+}
+
+a:lick{
+  color: blue;
+}
+a:visited{
+  color:purple;
+}
+a:hover{
+  color:black;
+}
